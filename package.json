@@ -1,19 +1,25 @@
 {
-  "name": "bot-whatsapp",
-  "version": "1.0.0",
-  "description": "A simple bot of whatsapp web",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/realpascuu/bot-whatsapp.git"
-  },
-  "author": "Pascual Juan Sánchez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/realpascuu/bot-whatsapp/issues"
-  },
-  "homepage": "https://github.com/realpascuu/bot-whatsapp#readme"
+    "name": "bot-whatsapp",
+    "version": "1.0.0",
+    "description": "A simple bot of whatsapp web",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/realpascuu/bot-whatsapp.git"
+    },
+    "author": "Pascual Juan Sánchez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/realpascuu/bot-whatsapp/issues"
+    },
+    "homepage": "https://github.com/realpascuu/bot-whatsapp#readme",
+    "dependencies": {
+        "nodemon": "^2.0.16",
+        "qrcode-terminal": "^0.12.0",
+        "whatsapp-web.js": "^1.16.6"
+    }
 }
